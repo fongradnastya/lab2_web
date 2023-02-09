@@ -1,0 +1,136 @@
+/* Обнуление стилей */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #FAFAFA;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Начало css кода */
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5D6268;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/** header **/
+
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header__top{
+    background-color: #418E97;
+    color: #fff;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header__logo{
+    display: flex;
+}
+
+.header__bottom{
+    background: #5DB4C0;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+}
+
+/* main block */
+
+.main__block{
+    background: rgb(251,239,239);
+    background: radial-gradient(circle, rgba(251,239,239,1) 0%, rgba(193,213,236,1) 100%);
+}
