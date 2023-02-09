@@ -11,7 +11,7 @@
         name="description">
     <link rel="stylesheet" href="css/style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@700;900&display=swap"
         rel="stylesheet">
     <title>Glovia Clothes - Создай свою эстетику</title>
 </head>
@@ -19,9 +19,9 @@
     <div class="wrapper">
         <header>
             <div class="header__top">
-                <div class="container">
+                <div class="container header__container">
                     <div class="header_logo">
-                        <div class="img">
+                        <div class="logo">
                             <img src="img/first_scrin/icon.png" alt="Glovia Clothes">
                         </div>
                         <div class="header__title">
@@ -32,14 +32,19 @@
                         </div>
                     </div>
                     <div class="header__basket">
-                        <img src="img/first_scrin/basket.png" alt="basket">
+                        <div class="basket__img">
+                            <img src="img/first_scrin/basket.png" alt="basket">
+                        </div>
                         <div class="header__prise">
                             1999 р.
                         </div>
                     </div>
                     <div class="header__log-in">
-                        <div class="img">
+                        <div class="log-in__img">
                             <img src="img/first_scrin/user.png" alt="user-icon">
+                        </div>
+                        <div class="log-in__button">
+                            <a href="#">Войти</a>
                         </div>
                     </div>
                 </div>
@@ -48,9 +53,6 @@
                 <div class="container">
                     <nav class="menu">
                         <ul class="menu__list" >
-                            <li>
-                            <a class="menu__link" href="#s1">Весенняя коллекция</a>
-                            </li>
                             <li>
                                 <a class="menu__link" href="#s2">Товары по категориям</a>
                             </li>
@@ -73,17 +75,19 @@
         </header>
         <main>
             <section id="s1" class="main__block">
-                <div class="container">
-                    <img src="img/левая карточка.png" alt="Модель">
-                    <div class="central-card">
-                        <h2>Новая весенняя коллекция</h2>
-                        <h2>“Gala Flowers”</h2>
-                        <p>Лёгкие и воздушные фасоны специально для тебя</p>
-                        <a href="#">Перейти к каталогу</a>
+                <div class="container main__container">
+                    <div class="img">
+                        <img src="img/левая карточка.png" alt="Модель">
                     </div>
-                    <img src="img/правая карточка.png" alt="Модель">
-                    
-                    
+                    <div class="central-card">
+                        <h2 class="main__new">Новая весенняя <br> коллекция</h2>
+                        <h2 class="main__collection">Gala Flowers</h2>
+                        <p class="main__text">Лёгкие и воздушные фасоны <br> специально для тебя</p>
+                        <a href="#s2" class="main__button">Перейти к каталогу</a>
+                    </div>
+                    <div class="img">
+                        <img src="img/правая карточка.png" alt="Модель">
+                    </div>
                 </div>
             </section>
             <section id="s2">

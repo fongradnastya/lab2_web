@@ -54,7 +54,6 @@ button::-moz-focus-inner {
 
 a, a:visited {
     text-decoration: none;
-    color: inherit;
 }
 
 ul li {
@@ -103,6 +102,10 @@ body {
     z-index: 50;
 }
 
+header a{
+    color: #fff;
+}
+
 .header__top{
     background-color: #418E97;
     color: #fff;
@@ -115,22 +118,125 @@ h1 {
     line-height: 24px;
 }
 
-.header__logo{
+.logo{
+    margin-right: 10px;
+}
+
+.header__container{
+    padding: 10px 0;
     display: flex;
+    align-items: center;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    margin-right: 600px;
 }
 
 .header__bottom{
     background: #5DB4C0;
     color: #fff;
+    padding: 10px 0;
 }
 
-.menu{
+.menu__list{
     display: flex;
+}
+
+.menu__list li{
+    margin-right: 30px;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.header__basket{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.header__log-in{
+    display: flex;
+    align-items: center;
+}
+
+.log-in__img{
+    margin-right: 10px;
+}
+
+.basket__img{
+    margin-right: 10px;
 }
 
 /* main block */
 
 .main__block{
     background: rgb(251,239,239);
-    background: radial-gradient(circle, rgba(251,239,239,1) 0%, rgba(193,213,236,1) 100%);
+    background: radial-gradient(circle, rgba(236,238,222,1) 0%, rgba(251,239,239,1) 10%, rgba(193,213,236,1) 100%);
+    padding-top: 68px;
+    padding-bottom: 100px;
+}
+
+.main__container{
+    display: flex;
+    justify-content: center;
+}
+
+.central-card{
+    background: url('../img/first_scrin/fantastic-blue-sky.jpg') no-repeat center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 65px 140px;
+}
+
+.main__collection{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 24px;
+    text-transform: none;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135.8%;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+}
+
+.main__button{
+    margin-top: 24px;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 200%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    min-height: 48px;
+    letter-spacing: 0.2px;
+    border-radius: 10px;
+    background-color: #ac83d3;
+}
+
+.main__new{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main__text{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
 }
