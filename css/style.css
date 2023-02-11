@@ -240,3 +240,87 @@ h2{
     font-weight: 700;
     text-align: center;
 }
+
+/* Categories */
+
+.categories{
+    margin-top: 80px;
+}
+
+.categories a{
+    color: inherit;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.categories__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__category{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px 15px 15px 15px;
+}
+
+.categories__other{
+    padding: 55px 50px;
+}
+
+.categories__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories__column {
+    margin-right: 30px;
+    width: 20%;
+}
+
+.categories__column .categories__category:last-child:not(.categories__trousers){
+    margin-top: 50px;
+}
+
+.categories__header{
+    margin-bottom: 50px;
+}
+
+.categories__tshirt .categories__img{
+    margin: 15px 0 20px 0;
+}
+
+.categories__trousers .categories__img{
+    margin: 35px 0 80px 0;
+}
+
+.categories__shoes .categories__img{
+    margin: 10px 0 20px 0;
+}
+
+/* Sales */
+
+.sales{
+    background: rgb(61,159,180);
+    background: linear-gradient(90deg, rgba(61,159,180,1) 0%, rgba(138,97,174,1) 100%);
+    margin: 80px 0px;
+    padding: 24px 0;
+}
+
+.sales__container{
+    display: flex;
+    align-items: center;
+}
+
+.sales__link{
+    color: #fff;
+}
+
+.sales__img, .sales__header{
+    margin-right: 30px;
+}
+
+/* popular */
+
