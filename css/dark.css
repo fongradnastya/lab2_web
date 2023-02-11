@@ -87,11 +87,6 @@ body {
     flex-direction: column;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /** header **/
 
 .header {
@@ -109,13 +104,6 @@ header a{
 .header__top{
     background-color: #418E97;
     color: #fff;
-}
-
-h1 {
-    font-family: "Playfair Display";
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
 }
 
 .logo{
@@ -204,15 +192,6 @@ h1 {
     margin-bottom: 24px;
     text-transform: none;
     letter-spacing: 0.1em;
-}
-
-h2{
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 135.8%;
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
 }
 
 .main__button{
@@ -317,10 +296,6 @@ h2{
     align-items: center;
 }
 
-.sales__link{
-    color: #fff;
-}
-
 .sales__img, .sales__header{
     margin-right: 30px;
 }
@@ -365,7 +340,6 @@ h2{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.05em;
-    color: #FE955E;
 }
 
 .popular__basket{
